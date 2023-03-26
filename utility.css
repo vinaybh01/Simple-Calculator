@@ -1,0 +1,43 @@
+.flex {
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.item-center {
+  align-items: center;
+}
+
+.row {
+  margin: 8px 0px;
+}
+
+button {
+  padding: 15px 15px;
+  margin: 0px 4px;
+  border: 1px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size: 20px;
+  box-shadow: -8px -8px 15px rgb(255, 255, 255, 0.1),
+    5px 5px 15px rgb(0, 0, 0, 0.2);
+  background-color: #3a4452;
+  color: #33ffd8;
+}
+
+.row input {
+  padding: 10px 0px;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 45px;
+}
